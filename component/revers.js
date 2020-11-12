@@ -1,6 +1,6 @@
 export default function(){
 
-  function reverseJsonArray( arrayString ) {
+  function reverseJsonArray(arrayString) {
 
     let parsedArray = [];
 
@@ -9,7 +9,7 @@ export default function(){
     try { parsedArray = JSON.parse(arrayString); }
     catch { return false; }
 
-    if ( !Array.isArray(parsedArray)) return false;
+    // if ( !Array.isArray(parsedArray)) return false;
 
   const reversedArray = parsedArray.reverse(); 
 
@@ -20,12 +20,14 @@ export default function(){
       return false;
     }
     return a;
-  }
+  } //reverseJsonArray
 
   console.log( reverseJsonArray());
+  // console.log( typeof(''));
   console.log( reverseJsonArray(false));
   console.log( reverseJsonArray([1,2,3,4]));
   console.log( reverseJsonArray('asd'));
+  //////////////////////////////////////////
   console.log( reverseJsonArray('[1]'));
   console.log( reverseJsonArray('[]'));
   console.log( reverseJsonArray('[1,2,3,4]'));
