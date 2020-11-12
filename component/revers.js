@@ -1,23 +1,25 @@
 export default function(){
+
   function reverseJsonArray( arrayString ) {
-  let parsedArray = [];
-  if (typeof(arrayString) != 'string') return false;
-  try {
-    parsedArray = JSON.parse(arrayString); 
-  } catch {
-    return false;
-  }
-  if ( !Array.isArray(parsedArray)) return false;
+
+    let parsedArray = [];
+
+    if (typeof(arrayString) != 'string') return false;
+
+    try { parsedArray = JSON.parse(arrayString); }
+    catch { return false; }
+
+    if ( !Array.isArray(parsedArray)) return false;
 
   const reversedArray = parsedArray.reverse(); 
 
   let a;
-  try {
-    a = JSON.stringify(reversedArray);
-  } catch {
-    return false;
-  }
-  return a;
+    try {
+      a = JSON.stringify(reversedArray);
+    } catch {
+      return false;
+    }
+    return a;
   }
 
   console.log( reverseJsonArray());
