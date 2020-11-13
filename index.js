@@ -1,7 +1,7 @@
 // Import stylesheets
 import './style.css';
 import destructing from './component/destructing.js';
-import revers from './component/revers.js';
+import { reverseJsonArray, isArrayTestWrap } from './component/revers.js';
 
 // Write Javascript code!
 let aList01 = ['aaa','bbb','ccc','111','222','333','a1','b2','c3'];
@@ -40,5 +40,6 @@ console.info("多维数组的打印：" + aList[0].length)
 console.log("\n ----- 数组解构赋值:destructing -----");
 // console.log(destructing());
 
-console.log("\n ----- 对象翻转:revers -----");
-console.log(revers());
+console.log("\n ----- JSON数组对象翻转排序:revers -----");
+// console.log(reverseJsonArray());
+console.log(isArrayTestWrap());

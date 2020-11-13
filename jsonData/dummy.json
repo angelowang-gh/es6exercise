@@ -1,0 +1,143 @@
+{
+    "companies": [
+        {
+            "id": 0,
+            "name": "Olivia Neal",
+            "work": "Qualcore",
+            "email": "olivia.neal@qualcore.gov",
+            "dob": "1941",
+            "address": "54 Haredale Road",
+            "city": "Coventry",
+            "optedin": false
+        },
+        {
+            "id": 1,
+            "name": "Rene Castleman",
+            "work": "MediaDime",
+            "email": "rene.castleman@mediadime.name",
+            "dob": "1929",
+            "address": "43 Bramble Lane",
+            "city": "Boulder",
+            "optedin": true
+        },
+        {
+            "id": 2,
+            "name": "Michael Bourne",
+            "work": "Tomiatech",
+            "email": "michael.bourne@tomiatech.name",
+            "dob": "1914",
+            "address": "76 Radcliffe Road",
+            "city": "Toledo",
+            "optedin": false
+        },
+        {
+            "id": 3,
+            "name": "Rolf Pickering",
+            "work": "Airconix",
+            "email": "rolf.pickering@airconix.co",
+            "dob": "1916",
+            "address": "58 Sterling Street",
+            "city": "Adelaide",
+            "optedin": false
+        },
+        {
+            "id": 4,
+            "name": "Isabelle Kilmer",
+            "work": "Amsquare",
+            "email": "isabelle.kilmer@amsquare.eu",
+            "dob": "1938",
+            "address": "46 Winchester Drive",
+            "city": "Albany",
+            "optedin": true
+        },
+        {
+            "id": 5,
+            "name": "Marcus Turner",
+            "work": "Citisys",
+            "email": "marcus.turner@citisys.info",
+            "dob": "1925",
+            "address": "82 Highland Drive",
+            "city": "Kingston",
+            "optedin": true
+        },
+        {
+            "id": 6,
+            "name": "Olivia Durrett",
+            "work": "Infratouch",
+            "email": "olivia.durrett@infratouch.org",
+            "dob": "1983",
+            "address": "81 Ceder Avenue",
+            "city": "Norwich",
+            "optedin": false
+        },
+        {
+            "id": 7,
+            "name": "Stephen Keesee",
+            "work": "Maxcast",
+            "email": "stephen.keesee@maxcast.me",
+            "dob": "1952",
+            "address": "22 Appleton Street",
+            "city": "Cardiff",
+            "optedin": true
+        },
+        {
+            "id": 8,
+            "name": "Lynetta Dunham",
+            "work": "Acousticom",
+            "email": "lynetta.dunham@acousticom.net",
+            "dob": "1920",
+            "address": "95 Bramble Lane",
+            "city": "Albany",
+            "optedin": false
+        },
+        {
+            "id": 9,
+            "name": "Max Young",
+            "work": "Polygan",
+            "email": "max.young@polygan.com",
+            "dob": "1914",
+            "address": "29 Rivington Street",
+            "city": "Dublin",
+            "optedin": true
+        }
+    ],
+    "images": [
+        "img0.png",
+        "img1.png",
+        "img2.png",
+        "img3.png",
+        "img4.png",
+        "img5.png",
+        "img6.png",
+        "img7.png",
+        "img8.png",
+        "img9.png"
+    ],
+    "coordinates": {
+        "x": -46.04,
+        "y": -4.13
+    },
+    "ages": [
+        "46",
+        "33",
+        "44",
+        "83",
+        "56",
+        "41",
+        "52",
+        "85",
+        "31",
+        "59",
+        "72",
+        "67",
+        "73",
+        "88",
+        "88",
+        "87",
+        "81",
+        "78",
+        "60",
+        "89"
+    ]
+
+}
