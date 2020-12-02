@@ -1,4 +1,5 @@
 /*
+ * 数组解构赋值
  * destructuring objects, vs arrays
  * Although destructuring in essense is the same - split object properties into multiple simple values (string, int, etc) or several objects which are simpler than the initial object
  * at it's core there is a major difference. Destructuring arrays doesn't require any information about the array, where as destructuring objects requires the user to know the properites of the object.
